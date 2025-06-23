@@ -6,7 +6,6 @@ __pycache__/
 projectflow.txt
 crashcourse.txt
 artifact/
-.env
 
 # C extensions
 *.so

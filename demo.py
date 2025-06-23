@@ -18,9 +18,11 @@ import os
 
 load_dotenv()  # This loads variables from .env
 
-mongodb_url = os.getenv("MONGODB_URL")
+# mongodb_url = os.getenv("MONGODB_URL")
+# access_key = os.getenv("AWS_ACCESS_KEY_ID")
+# secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 
-print("MONGODB_URL from .env:", mongodb_url)
+# print("MONGODB_URL from .env:", mongodb_url)
 
 from src.pipeline.training_pipeline import TrainPipeline
 
